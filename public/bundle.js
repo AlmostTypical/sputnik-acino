@@ -21490,52 +21490,56 @@
 	  render: function render() {
 	    return _react2.default.createElement(
 	      "div",
-	      null,
+	      { className: "container" },
 	      _react2.default.createElement(
-	        "span",
-	        null,
-	        _react2.default.createElement("img", { src: "./assets/images/logo.gif" }),
+	        "div",
+	        { className: "nav" },
+	        _react2.default.createElement("img", { src: "./assets/images/logo.gif", className: "logo" }),
 	        _react2.default.createElement(
-	          "ul",
-	          { className: "nav lang" },
+	          "div",
+	          null,
 	          _react2.default.createElement(
-	            "li",
-	            null,
-	            "ENG"
+	            "ul",
+	            { className: "lang" },
+	            _react2.default.createElement(
+	              "li",
+	              null,
+	              "ENG"
+	            ),
+	            _react2.default.createElement(
+	              "li",
+	              null,
+	              "DEU"
+	            )
 	          ),
 	          _react2.default.createElement(
-	            "li",
-	            null,
-	            "DEU"
-	          )
-	        ),
-	        _react2.default.createElement(
-	          "ul",
-	          { className: "nav list" },
-	          _react2.default.createElement(
-	            "li",
-	            null,
-	            "ABOUT US"
-	          ),
-	          _react2.default.createElement(
-	            "li",
-	            null,
-	            "OUR BUSINESS"
-	          ),
-	          _react2.default.createElement(
-	            "li",
-	            null,
-	            "NEWS"
-	          ),
-	          _react2.default.createElement(
-	            "li",
-	            null,
-	            "CAREER"
-	          ),
-	          _react2.default.createElement(
-	            "li",
-	            null,
-	            "CONTACT US"
+	            "ul",
+	            { className: "main-menu" },
+	            _react2.default.createElement(
+	              "li",
+	              null,
+	              "ABOUT US"
+	            ),
+	            _react2.default.createElement(
+	              "li",
+	              null,
+	              "OUR BUSINESS"
+	            ),
+	            _react2.default.createElement(
+	              "li",
+	              null,
+	              "NEWS"
+	            ),
+	            _react2.default.createElement(
+	              "li",
+	              null,
+	              "CAREER"
+	            ),
+	            _react2.default.createElement(
+	              "li",
+	              null,
+	              "CONTACT US"
+	            )
 	          )
 	        )
 	      )
