@@ -1,9 +1,12 @@
+const Path = require('path');
+
 module.exports = {
   entry: './src/main.js',
   output: {
     path: './public/',
     filename: 'bundle.js'
   },
+  devtool: 'inline-source-map',
   module: {
     loaders: [
       {

@@ -21443,6 +21443,14 @@
 
 	var _react2 = _interopRequireDefault(_react);
 
+	var _NavBar = __webpack_require__(173);
+
+	var _NavBar2 = _interopRequireDefault(_NavBar);
+
+	var _HeroBanner = __webpack_require__(174);
+
+	var _HeroBanner2 = _interopRequireDefault(_HeroBanner);
+
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	var App = _react2.default.createClass({
@@ -21452,16 +21460,124 @@
 	    return _react2.default.createElement(
 	      'div',
 	      null,
-	      _react2.default.createElement(
-	        'h1',
-	        null,
-	        'Hello world!'
-	      )
+	      _react2.default.createElement(_NavBar2.default, null),
+	      _react2.default.createElement(_HeroBanner2.default, null)
 	    );
 	  }
 	});
 
 	exports.default = App;
+
+/***/ },
+/* 173 */
+/***/ function(module, exports, __webpack_require__) {
+
+	"use strict";
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _react = __webpack_require__(1);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	var NavBar = _react2.default.createClass({
+	  displayName: "NavBar",
+
+	  render: function render() {
+	    return _react2.default.createElement(
+	      "div",
+	      null,
+	      _react2.default.createElement(
+	        "span",
+	        null,
+	        _react2.default.createElement("img", { src: "./assets/images/logo.gif" }),
+	        _react2.default.createElement(
+	          "ul",
+	          { className: "nav lang" },
+	          _react2.default.createElement(
+	            "li",
+	            null,
+	            "ENG"
+	          ),
+	          _react2.default.createElement(
+	            "li",
+	            null,
+	            "DEU"
+	          )
+	        ),
+	        _react2.default.createElement(
+	          "ul",
+	          { className: "nav list" },
+	          _react2.default.createElement(
+	            "li",
+	            null,
+	            "ABOUT US"
+	          ),
+	          _react2.default.createElement(
+	            "li",
+	            null,
+	            "OUR BUSINESS"
+	          ),
+	          _react2.default.createElement(
+	            "li",
+	            null,
+	            "NEWS"
+	          ),
+	          _react2.default.createElement(
+	            "li",
+	            null,
+	            "CAREER"
+	          ),
+	          _react2.default.createElement(
+	            "li",
+	            null,
+	            "CONTACT US"
+	          )
+	        )
+	      )
+	    );
+	  }
+	});
+
+	exports.default = NavBar;
+
+/***/ },
+/* 174 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _react = __webpack_require__(1);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	var HeroBanner = _react2.default.createClass({
+	  displayName: 'HeroBanner',
+
+	  render: function render() {
+	    return _react2.default.createElement(
+	      'div',
+	      null,
+	      _react2.default.createElement(
+	        'h1',
+	        null,
+	        'Hero banner here'
+	      )
+	    );
+	  }
+	});
+
+	exports.default = HeroBanner;
 
 /***/ }
 /******/ ]);
