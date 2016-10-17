@@ -21,7 +21,7 @@
     }
     .navbar-nav {
         float: none!important;
-        margin-top: 7.5px;
+        margin-top: 8px;
     }
     .navbar-nav>li {
         float: none;
@@ -33,7 +33,22 @@
     .collapse.in{
         display:block !important;
     }
+    .mainmenu-text {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+
 }
+
+@media (max-width: 766px) {
+    .navbar {
+        max-width: 100% !important;
+        margin: 0 !important;
+    }
+}
+
+
 
 /*=============================================*/
 /*NAVBAR*/
@@ -49,8 +64,14 @@ ul {
 }
 
 a {
+    position: relative;
     margin-left: 20px;
+    margin-right: 5px;
     color: #333;
+}
+
+.fa {
+    margin-top: 3px;
 }
 
 .lang-bar {
@@ -86,6 +107,16 @@ a {
     margin-bottom: 0;
 }
 
+.icon {
+    margin-top: 5px;
+}
+
+.navbar-toggle {
+    margin: 5px 10px 30px 30px;
+    padding: 0;
+    border: 0;
+}
+
 /*=============================================*/
 /*HERO BANNER*/
 /*=============================================*/
@@ -98,7 +129,9 @@ a {
 
 .jumbotron {
     background-image: url("http://localhost:9001/assets/images/banner-img.jpg");
+    background-repeat: no-repeat;
     background-size: 100%;
+    background-position: center;
 }
 
 h1, p {
@@ -111,7 +144,7 @@ p {
 
 .button {
     color: whitesmoke;
-    padding: 15px 30px;
+    padding: 15px 35px;
     background: #333;
     border: 0px;
     border-radius: 50px;
