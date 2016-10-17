@@ -21490,56 +21490,65 @@
 	  render: function render() {
 	    return _react2.default.createElement(
 	      "div",
-	      { className: "container" },
+	      { className: "navbar navbar-default" },
 	      _react2.default.createElement(
 	        "div",
-	        { className: "nav" },
-	        _react2.default.createElement("img", { src: "./assets/images/logo.gif", className: "logo" }),
+	        { className: "container-fluid" },
 	        _react2.default.createElement(
 	          "div",
-	          null,
+	          { className: "navbar-header" },
+	          _react2.default.createElement(
+	            "a",
+	            { className: "navbar-brand", href: "#" },
+	            _react2.default.createElement("img", { alt: "Acino International", src: "./assets/images/logo.gif" })
+	          )
+	        ),
+	        _react2.default.createElement(
+	          "div",
+	          { className: "navbar-text navbar-right" },
 	          _react2.default.createElement(
 	            "ul",
-	            { className: "lang" },
+	            { className: "lang-bar" },
 	            _react2.default.createElement(
-	              "li",
-	              null,
+	              "a",
+	              { className: "navbar-link", href: "#" },
 	              "ENG"
 	            ),
 	            _react2.default.createElement(
-	              "li",
-	              null,
+	              "a",
+	              { className: "navbar-link", href: "#" },
 	              "DEU"
 	            )
 	          ),
 	          _react2.default.createElement(
 	            "ul",
-	            { className: "main-menu" },
+	            { className: "mainmenu-bar" },
 	            _react2.default.createElement(
-	              "li",
-	              null,
+	              "a",
+	              { className: "navbar-link", href: "#" },
 	              "ABOUT US"
 	            ),
 	            _react2.default.createElement(
-	              "li",
-	              null,
+	              "a",
+	              { className: "navbar-link", href: "#" },
 	              "OUR BUSINESS"
 	            ),
 	            _react2.default.createElement(
-	              "li",
-	              null,
+	              "a",
+	              { className: "navbar-link", href: "#" },
 	              "NEWS"
 	            ),
 	            _react2.default.createElement(
-	              "li",
-	              null,
+	              "a",
+	              { className: "navbar-link", href: "#" },
 	              "CAREER"
 	            ),
 	            _react2.default.createElement(
-	              "li",
-	              null,
+	              "a",
+	              { className: "navbar-link", href: "#" },
 	              "CONTACT US"
-	            )
+	            ),
+	            _react2.default.createElement("a", { className: "fa fa-search" })
 	          )
 	        )
 	      )
@@ -21553,7 +21562,7 @@
 /* 174 */
 /***/ function(module, exports, __webpack_require__) {
 
-	'use strict';
+	"use strict";
 
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
@@ -21566,16 +21575,35 @@
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 	var HeroBanner = _react2.default.createClass({
-	  displayName: 'HeroBanner',
+	  displayName: "HeroBanner",
 
 	  render: function render() {
 	    return _react2.default.createElement(
-	      'div',
-	      null,
+	      "div",
+	      { className: "panel" },
 	      _react2.default.createElement(
-	        'h1',
-	        null,
-	        'Hero banner here'
+	        "div",
+	        { className: "container", id: "panel" },
+	        _react2.default.createElement(
+	          "p",
+	          null,
+	          "Acino Stories"
+	        ),
+	        _react2.default.createElement(
+	          "p",
+	          null,
+	          "We provide medical education in Central America"
+	        ),
+	        _react2.default.createElement(
+	          "p",
+	          null,
+	          "Acino's event \"Cumbre Acino: Medicina de Altura\" was held in Guatemala on April 29th"
+	        ),
+	        _react2.default.createElement(
+	          "button",
+	          null,
+	          "FIND OUT MORE"
+	        )
 	      )
 	    );
 	  }

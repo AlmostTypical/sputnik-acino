@@ -3,20 +3,25 @@ import React from 'react';
 const NavBar = React.createClass({
   render: function () {
     return (
-      <div className="container">
-        <div className="nav">
-          <img src="./assets/images/logo.gif" className="logo" />
-          <div>
-            <ul className="lang">
-              <li>ENG</li>
-              <li>DEU</li>
+      <div className="navbar navbar-default">
+        <div className="container-fluid">
+          <div className="navbar-header">
+            <a className="navbar-brand" href="#">
+              <img alt="Acino International" src="./assets/images/logo.gif" />
+            </a>
+          </div>
+          <div className="navbar-text navbar-right">
+            <ul className="lang-bar">
+              <a className="navbar-link" href="#">ENG</a>
+              <a className="navbar-link" href="#">DEU</a>
             </ul>
-            <ul className="main-menu">
-              <li>ABOUT US</li>
-              <li>OUR BUSINESS</li>
-              <li>NEWS</li>
-              <li>CAREER</li>
-              <li>CONTACT US</li>
+            <ul className="mainmenu-bar">
+              <a className="navbar-link" href="#">ABOUT US</a>
+              <a className="navbar-link" href="#">OUR BUSINESS</a>
+              <a className="navbar-link" href="#">NEWS</a>
+              <a className="navbar-link" href="#">CAREER</a>
+              <a className="navbar-link" href="#">CONTACT US</a>
+              <a className="fa fa-search"></a>
             </ul>
           </div>
         </div>

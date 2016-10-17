@@ -1,54 +1,32 @@
-/*===============================================*/
-/* NAV BAR
-/*===============================================*/
-
 ul {
-    list-style: none;
-    display: flex;
-    justify-content: flex-end;
-    flex-flow: row;
-    margin: 0;
-    padding: 0;
-}
-
-li {
-    padding-left: 20px;
-}
-
-.container {
-    max-width: 75%;
-    margin: auto;
-}
-
-.nav {
     display: flex;
     flex-direction: row;
-    list-style: none;
-    justify-content: space-between;
+    justify-content: flex-end;
 }
 
-.lang {
-    margin: 5px;
-    font-family: "Liberation Sans", sans-serif;
+a {
+    margin-left: 20px;
+    color: #333;
+}
+
+.lang-bar {
     font-size: 14px;
-    color: #333333
 }
 
-.main-menu {
-    margin: 5px;
-    padding-top: 15px;
-    font-family: "Liberation Sans", sans-serif;
-    font-size: 17px;
-    color: #333333
+.mainmenu-bar {
+    font-size: 18px;
 }
 
-.logo {
-    display: inline;
-    height: 51px;
-    width: 177px;
-    padding: 25px;
+.navbar-text {
+    margin-top: 0;
+    margin-right: 5px;
 }
 
-/*===============================================*/
-/* HERO BANNER
-/*===============================================*/
+.navbar {
+    max-width: 75%;
+    padding: 20px;
+    border: 0;
+    background-color: transparent;
+    margin-left: auto;
+    margin-right: auto;
+}
