@@ -1,3 +1,7 @@
+/*=============================================*/
+/*NAVBAR*/
+/*=============================================*/
+
 ul {
     display: flex;
     flex-direction: row;
@@ -29,4 +33,32 @@ a {
     background-color: transparent;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 0;
+}
+
+/*=============================================*/
+/*HERO BANNER*/
+/*=============================================*/
+
+.text-container {
+    padding-right: 40%;
+    padding-left: 20px;
+    margin-left: auto;
+}
+
+.jumbotron {
+    background-image: url("http://localhost:9001/assets/images/banner-img.jpg");
+    background-size: 100%;
+}
+
+h1, p {
+    color: whitesmoke !important;
+}
+
+.button {
+    color: whitesmoke;
+    padding: 15px 30px;
+    background: #333;
+    border: 0px;
+    border-radius: 50px;
 }

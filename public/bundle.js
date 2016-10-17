@@ -21580,29 +21580,33 @@
 	  render: function render() {
 	    return _react2.default.createElement(
 	      "div",
-	      { className: "panel" },
+	      { className: "jumbotron" },
 	      _react2.default.createElement(
 	        "div",
-	        { className: "container", id: "panel" },
+	        { className: "container" },
 	        _react2.default.createElement(
-	          "p",
-	          null,
-	          "Acino Stories"
-	        ),
-	        _react2.default.createElement(
-	          "p",
-	          null,
-	          "We provide medical education in Central America"
-	        ),
-	        _react2.default.createElement(
-	          "p",
-	          null,
-	          "Acino's event \"Cumbre Acino: Medicina de Altura\" was held in Guatemala on April 29th"
-	        ),
-	        _react2.default.createElement(
-	          "button",
-	          null,
-	          "FIND OUT MORE"
+	          "div",
+	          { className: "text-container" },
+	          _react2.default.createElement(
+	            "p",
+	            null,
+	            "Acino Stories"
+	          ),
+	          _react2.default.createElement(
+	            "h1",
+	            null,
+	            "We provide medical education in Central America"
+	          ),
+	          _react2.default.createElement(
+	            "p",
+	            null,
+	            "Acino's event \"Cumbre Acino: Medicina de Altura\" was held in Guatemala on April 29th"
+	          ),
+	          _react2.default.createElement(
+	            "button",
+	            { className: "button" },
+	            "FIND OUT MORE"
+	          )
 	        )
 	      )
 	    );
