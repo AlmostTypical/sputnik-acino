@@ -75,6 +75,7 @@ a {
 
 .fa {
     margin-top: 3px;
+    margin-right: 10px;
 }
 
 .lang-bar {
@@ -115,7 +116,7 @@ a {
 }
 
 .navbar-toggle {
-    margin: 5px 10px 30px 30px;
+    margin: 5px 35px 30px 30px;
     padding: 0;
     border: 0;
 }

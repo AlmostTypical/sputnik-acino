@@ -14,12 +14,12 @@ const NavBar = React.createClass({
               <li><a className="navbar-link" href="#">DEU</a></li>
             </ul>
             <div className="mainmenu-bar">
+              <a className="fa fa-search pull-right"> </a>
               <button type="button" className="navbar-toggle" data-toggle="collapse" data-target="#headnav">
                 <span className="icon-bar"> </span>
                 <span className="icon-bar"> </span>
                 <span className="icon-bar"> </span>
               </button>
-              <a className="fa fa-search pull-right"> </a>
               <div className="collapse navbar-collapse" id="headnav">
                 <ul className="mainmenu-text">
                   <li><a className="navbar-link" href="#">ABOUT US</a></li>
@@ -29,6 +29,7 @@ const NavBar = React.createClass({
                   <li><a className="navbar-link" href="#">CONTACT US</a></li>
                 </ul>
               </div>
+
             </div>
           </div>
         </div>
