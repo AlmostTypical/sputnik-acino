@@ -41,6 +41,8 @@
         flex-direction: column;
         justify-content: center;
         text-align: center;
+        padding-top: 60px;
+        margin-bottom: 0;
     }
 }
 
@@ -48,6 +50,12 @@
     .navbar {
         max-width: 100% !important;
         margin: 0 !important;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    p {
+        font-size: 19px;
     }
 }
 
@@ -94,6 +102,7 @@ a {
 .navbar-text {
     margin-top: 0;
     margin-right: 5px;
+    font-family: Roboto, sans-serif;
 }
 
 .navbar-brand {
@@ -140,6 +149,7 @@ a {
 
 h1, p {
     color: whitesmoke !important;
+    font-family: Roboto, sans-serif;
 }
 
 p {
@@ -161,4 +171,5 @@ p {
     -moz-box-shadow:inset 0 0 0 3px whitesmoke;
     box-shadow:inset 0 0 0 3px whitesmoke;
     background: none;
+    font-family: Roboto, sans-serif;
 }
