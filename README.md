@@ -20,8 +20,13 @@ Installing is very simple! Just clone the repo and then run the following comman
 npm install
 ```
 
-This will install all the packages you'll need to run the app. After it's finished working, navigate to 
-[localhost:9001](http://localhost:9001) and take a look!
+This will install all the packages you'll need to run the app. Then run:
+
+```
+npm start
+```
+
+After it's finished working, navigate to [localhost:9001](http://localhost:9001) and take a look!
 
 ### Technologies Used
 
