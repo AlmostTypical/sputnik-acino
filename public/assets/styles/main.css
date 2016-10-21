@@ -40,6 +40,10 @@ a {
     font-family: Roboto, sans-serif;
 }
 
+.navbar-link:hover {
+    color: #ec6800 !important;
+}
+
 .navbar-brand {
     padding-top: 15px;
 }
@@ -159,13 +163,22 @@ p {
     }
 }
 
+@media (max-width: 990px) {
+    h1 {
+        font-size: 35px !important;
+    }
+    .jumbotron-text {
+        font-size: 20px !important;
+    }
+}
+
 @media (max-width: 767px) {
     .navbar {
         max-width: 100% !important;
         margin: 0 !important;
     }
     h1 {
-        font-size: 30px;
+        font-size: 30px !important;
     }
     p {
         font-size: 12px;
