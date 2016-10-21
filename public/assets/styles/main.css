@@ -24,10 +24,8 @@ a {
 }
 
 .lang-bar {
-
     font-size: 14px;
     letter-spacing: 1px;
-
 }
 
 .mainmenu-bar {
@@ -132,6 +130,7 @@ p {
     }
     .navbar-collapse.collapse {
         display: none!important;
+        min-width: 96px;
     }
     .navbar-nav {
         float: none!important;
@@ -169,6 +168,45 @@ p {
         font-size: 30px;
     }
     p {
-        font-size: 19px;
+        font-size: 12px;
+    }
+    .jumbotron-text {
+        font-size: 15px !important;
+    }
+    .jumbotron {
+        background-size: cover;
+        background-position: right;
+    }
+    .button {
+        font-size: 11px !important;
+        padding: 10px 23px;
+    }
+    .navbar-brand {
+        margin-left: 5px;
+    }
+    .logo {
+        padding-top: 5px;
+        width: 141px;
+        height: 45px;
+    }
+    .mainmenu-bar {
+        font-size: 14px;
+    }
+    .collapsing {
+        min-width: 96px;
+    }
+    .container-fluid {
+        padding: 0;
+    }
+    .menu {
+        margin: 0;
+    }
+}
+
+@media (max-width: 430px) {
+    .navbar-collapse {
+        padding-left: 30%;
+        padding-right: 0;
+        overflow-x: hidden;
     }
 }

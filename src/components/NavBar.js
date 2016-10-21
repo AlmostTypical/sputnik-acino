@@ -6,7 +6,7 @@ const NavBar = React.createClass({
       <div className="navbar navbar-default">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
-            <img alt="Acino International" src="./assets/images/logo.gif" />
+            <img className="logo" alt="Acino International" src="./assets/images/logo.gif" />
           </a>
           <div className="navbar-text navbar-right">
             <ul className="lang-bar">
@@ -22,11 +22,11 @@ const NavBar = React.createClass({
               </button>
               <div className="collapse navbar-collapse" id="headnav">
                 <ul className="mainmenu-text">
-                  <li><a className="navbar-link" href="#">ABOUT US</a></li>
-                  <li><a className="navbar-link" href="#">OUR BUSINESS</a></li>
-                  <li><a className="navbar-link" href="#">NEWS</a></li>
-                  <li><a className="navbar-link" href="#">CAREER</a></li>
-                  <li><a className="navbar-link" href="#">CONTACT US</a></li>
+                  <li><a className="navbar-link menu" href="#">ABOUT US</a></li>
+                  <li><a className="navbar-link menu" href="#">OUR BUSINESS</a></li>
+                  <li><a className="navbar-link menu" href="#">NEWS</a></li>
+                  <li><a className="navbar-link menu" href="#">CAREER</a></li>
+                  <li><a className="navbar-link menu" href="#">CONTACT US</a></li>
                 </ul>
               </div>
 

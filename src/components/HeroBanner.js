@@ -10,7 +10,7 @@ const HeroBanner = React.createClass({
             <br />
             <h1>We provide medical education in Central America</h1>
             <br />
-            <p>Acino's event "Cumbre Acino: Medicina de Altura" was held in Guatemala on April 29th</p>
+            <p className="jumbotron-text">Acino's event "Cumbre Acino: Medicina de Altura" was held in Guatemala on April 29th</p>
             <br />
             <button className="button">FIND OUT MORE</button>
           </div>
