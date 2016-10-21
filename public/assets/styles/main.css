@@ -23,6 +23,11 @@ a {
     margin-right: 10px;
 }
 
+.fa:hover {
+    color: #ec6800 !important;
+    text-decoration: none;
+}
+
 .lang-bar {
     font-size: 14px;
     letter-spacing: 1px;
